@@ -1,9 +1,6 @@
 package com.example.weatherapp.data.network.service
 
-import com.example.weatherapp.data.network.dto.WeatherDataDto
 import com.example.weatherapp.data.network.dto.WeatherDto
-import com.example.weatherapp.util.Resource
-import kotlinx.coroutines.flow.Flow
 import retrofit2.http.GET
 import retrofit2.http.Query
 
