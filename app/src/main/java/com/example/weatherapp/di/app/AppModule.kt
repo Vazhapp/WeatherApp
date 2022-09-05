@@ -1,10 +1,9 @@
-package com.example.weatherapp.di
+package com.example.weatherapp.di.app
 
 import android.app.Application
 import com.example.weatherapp.util.Constant.BASE_URL
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
-import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
