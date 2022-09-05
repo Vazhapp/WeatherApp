@@ -16,6 +16,6 @@ interface WeatherApi {
     suspend fun getWeatherData(
         @Query("latitude") latitude: Double,
         @Query("longitude") longitude: Double,
-    ): Flow<Resource<WeatherDto>>
+    ): WeatherDto
 
 }
